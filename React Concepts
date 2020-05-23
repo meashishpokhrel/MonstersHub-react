@@ -10,7 +10,13 @@ in facebook to updating twitter feeds without reloading the whole web page or DO
 React Idead...Smaller Components put together to form bigger Componets.
 Components are simply javascript functions (or class).
 
+React Developers must consider
+Decide on Components.
+Decide the state and where it lives.
+What changes when state changes.
+
 /****************Summary************/
 1. Don't touch the DOM. I'll do it.
 2. Build websites like lego blocks.
 3. Uniirectional Data Flow.
+4. UI, the rest is up to you.
