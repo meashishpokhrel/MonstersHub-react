@@ -1,0 +1,16 @@
+Jquery Came first which manipualted DOM.
+But it could only be used for samll projects.
+
+IN react we have state which is like Javascript Object.
+
+Then Came React, Uses components where it says just give me the state you
+want and i will react. so the name react was used. Like poping notification number
+in facebook to updating twitter feeds without reloading the whole web page or DOM.
+
+React Idead...Smaller Components put together to form bigger Componets.
+Components are simply javascript functions (or class).
+
+/****************Summary************/
+1. Don't touch the DOM. I'll do it.
+2. Build websites like lego blocks.
+3. Uniirectional Data Flow.
