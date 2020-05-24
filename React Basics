@@ -1,0 +1,4 @@
+Using Creat React app::
+
+npm config set cache "C:\Users\Firstname~1\AppData\Roaming\npm-cache" --global
+
