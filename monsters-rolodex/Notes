@@ -1,0 +1,6 @@
+Beginnig From : Class COmponents
+
+We can also Write classes that return HTML.(Classes has more functionality than the functions):
+
+BY using Class component we get access to the state.
+Component gives method called setstate.
