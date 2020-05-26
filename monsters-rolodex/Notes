@@ -4,3 +4,6 @@ We can also Write classes that return HTML.(Classes has more functionality than 
 
 BY using Class component we get access to the state.
 Component gives method called setstate.
+You are not allowed to change the state without calling setstate.
+
+Next: 
