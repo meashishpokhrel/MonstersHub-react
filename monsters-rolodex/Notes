@@ -6,4 +6,7 @@ BY using Class component we get access to the state.
 Component gives method called setstate.
 You are not allowed to change the state without calling setstate.
 
+Life CYcle Method:
+Method which gets called at different stages when components gets rendered.
+
 Next: 
