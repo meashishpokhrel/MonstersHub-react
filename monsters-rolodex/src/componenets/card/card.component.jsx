@@ -9,4 +9,3 @@ export const Card = props => (
     </div>
 );
 
-// src={`https://robohash.org/${props.monster.id}?set=set2?size=180*180`}
