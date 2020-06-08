@@ -19,6 +19,11 @@ class App extends Component{
     .then (users => this.setState( {monsters: users }));
   }
 
+  //Creating Method handleChange
+  searchAction = (e) => {
+    this.setState({searchField: e.target.value});
+  }
+
 
   render(){
 
@@ -29,7 +34,8 @@ class App extends Component{
 
     return(
       <div className="App">
-        <SearchBox placeholder="search name" searchAction={e => this.setState({searchField: e.target.value})}/>
+        <SearchBox placeholder="search name" 
+        searchAction={this.searchAction} />
         <CardList monsters={filteredMonsters} />
     </div> 
     );
