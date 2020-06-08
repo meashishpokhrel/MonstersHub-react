@@ -2,3 +2,15 @@ Using Creat React app::
 
 npm config set cache "C:\Users\Firstname~1\AppData\Roaming\npm-cache" --global
 
+npx create-react-app my-app
+cd my-app
+npm start
+
+npm run build-----> creates the html css which the browser will read while deployment(converted).
+
+BABEL:: Take all the javscript files and make sure they run in all browsers not matter how old they are.
+
+WEBPACK:: Modular bundler, 
+
+build folder will be used for deployment,
+src folder is our playground.
