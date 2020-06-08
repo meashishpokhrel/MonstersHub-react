@@ -1,0 +1,9 @@
+1. npm add gh-pages
+2. Goto package.json file and after private add:
+      "homepage": "https://github-username.github.io/repisitory-name.io"
+3. In scripts add :
+
+    "predeploy": "npm build",
+    "deploy": "gh-pages -d build"
+
+3. run npm deploy

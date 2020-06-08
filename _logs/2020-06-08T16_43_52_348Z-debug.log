@@ -1,0 +1,21 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\Ashish Boltar\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'find'
+1 verbose cli ]
+2 info using npm@6.14.5
+3 info using node@v12.16.3
+4 verbose npm-session 48c10f3c789b0963
+5 verbose stack Error: search must be called with arguments
+5 verbose stack     at EventEmitter.search (C:\Users\Ashish Boltar\AppData\Roaming\npm\node_modules\npm\lib\search.js:46:15)
+5 verbose stack     at Object.commandCache.<computed> (C:\Users\Ashish Boltar\AppData\Roaming\npm\node_modules\npm\lib\npm.js:156:13)
+5 verbose stack     at EventEmitter.<anonymous> (C:\Users\Ashish Boltar\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js:131:30)
+5 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:79:11)
+6 verbose cwd D:\LC\codes\react
+7 verbose Windows_NT 10.0.17763
+8 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Ashish Boltar\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "find"
+9 verbose node v12.16.3
+10 verbose npm  v6.14.5
+11 error search must be called with arguments
+12 verbose exit [ 1, true ]
