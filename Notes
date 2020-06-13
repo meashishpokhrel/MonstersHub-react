@@ -15,3 +15,11 @@ we can also make our own element like cardlist, searchbox, etc.
 React Uses JSX syntax.
 
 One big thing about components is that they 
+
+/////////***React Package Upgrade ***/////
+
+1. yarn list react react-dom react-scripts
+2. yarn upgrade
+ [If you update the package.json file then use yarn install]
+ ^ before the version number means it will upgrade the version to latest but not broken when package is upgraded.
+ 
